@@ -1,0 +1,16 @@
+# Raw competition data and derived caches: large, and reproducible via dl.py /
+# scripts/build_parquet.py / scripts/build_cache.py (see README).
+data/raw/
+data/clean/
+data/cache/
+
+# Archived results from the earlier run, kept locally for rollback only.
+out_prev/
+
+# Kaggle credentials are read from the environment; never commit them.
+kaggle.json
+.env
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

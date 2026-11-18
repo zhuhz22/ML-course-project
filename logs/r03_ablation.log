@@ -1,0 +1,17 @@
+{"variant": "full", "n_features": 127, "best_iter": {"x": 1382, "y": 1399}, "rmse": 0.7499005209811781, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8260504634948732, "Targeted Receiver": 0.5129824165864332}}
+{"variant": "no_history", "n_features": 103, "best_iter": {"x": 1227, "y": 1346}, "rmse": 0.7725142375987394, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8410072657991594, "Targeted Receiver": 0.566786933091328}}
+{"variant": "no_neighbour", "n_features": 73, "best_iter": {"x": 1396, "y": 1169}, "rmse": 0.7643476873448638, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8521201264523042, "Targeted Receiver": 0.4800994036845127}}
+{"variant": "history_last_frame", "n_features": 97, "best_iter": {"x": 629, "y": 542}, "rmse": 0.7715743522545708, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8394326612575528, "Targeted Receiver": 0.5681328074425345}}
+{"variant": "no_history_no_neighbour", "n_features": 49, "best_iter": {"x": 684, "y": 817}, "rmse": 0.7872693746589422, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8731706502002893, "Targeted Receiver": 0.5139890929281182}}
+{"variant": "no_landing_geometry", "n_features": 114, "best_iter": {"x": 1263, "y": 1398}, "rmse": 0.9995588958753425, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 1.0738382129784965, "Targeted Receiver": 0.7843124886598791}}
+/mnt/vepfs/base2/zhuhongzhou/.local/lib/python3.8/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+
+== summary ==
+full                       feats= 127  RMSE=0.7499
+no_neighbour               feats=  73  RMSE=0.7643
+history_last_frame         feats=  97  RMSE=0.7716
+no_history                 feats= 103  RMSE=0.7725
+no_history_no_neighbour    feats=  49  RMSE=0.7873
+no_landing_geometry        feats= 114  RMSE=0.9996

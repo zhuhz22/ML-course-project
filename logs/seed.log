@@ -1,0 +1,8 @@
+{"seed": 0, "rmse": 0.7507892926644674, "best_iter": {"x": 1198, "y": 1196}}
+{"seed": 1, "rmse": 0.7488068011804234, "best_iter": {"x": 776, "y": 1171}}
+{"seed": 2, "rmse": 0.7516484850885137, "best_iter": {"x": 1199, "y": 1199}}
+/mnt/vepfs/base2/zhuhongzhou/.local/lib/python3.8/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+
+mean 0.7504  std 0.0015  min 0.7488  max 0.7516

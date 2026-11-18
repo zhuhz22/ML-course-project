@@ -1,0 +1,2 @@
+{"variant": "full", "n_features": 127, "best_iter": {"x": 776, "y": 1399}, "rmse": 0.748365142337862, "rmse_cv": 1.645345798245558, "by_role": {"Defensive Coverage": 0.8188823798196059, "Targeted Receiver": 0.5333967634732917}}
+seed 1 full                       RMSE=0.7484 (49s)

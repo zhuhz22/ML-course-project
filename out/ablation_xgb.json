@@ -1,0 +1,92 @@
+[
+ {
+  "variant": "full",
+  "n_features": 127,
+  "best_iter": {
+   "x": 1382,
+   "y": 1399
+  },
+  "rmse": 0.7499005209811781,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 0.8260504634948732,
+   "Targeted Receiver": 0.5129824165864332
+  },
+  "secs": 68
+ },
+ {
+  "variant": "no_history",
+  "n_features": 103,
+  "best_iter": {
+   "x": 1227,
+   "y": 1346
+  },
+  "rmse": 0.7725142375987394,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 0.8410072657991594,
+   "Targeted Receiver": 0.566786933091328
+  },
+  "secs": 62
+ },
+ {
+  "variant": "no_neighbour",
+  "n_features": 73,
+  "best_iter": {
+   "x": 1396,
+   "y": 1169
+  },
+  "rmse": 0.7643476873448638,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 0.8521201264523042,
+   "Targeted Receiver": 0.4800994036845127
+  },
+  "secs": 39
+ },
+ {
+  "variant": "history_last_frame",
+  "n_features": 97,
+  "best_iter": {
+   "x": 629,
+   "y": 542
+  },
+  "rmse": 0.7715743522545708,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 0.8394326612575528,
+   "Targeted Receiver": 0.5681328074425345
+  },
+  "secs": 22
+ },
+ {
+  "variant": "no_history_no_neighbour",
+  "n_features": 49,
+  "best_iter": {
+   "x": 684,
+   "y": 817
+  },
+  "rmse": 0.7872693746589422,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 0.8731706502002893,
+   "Targeted Receiver": 0.5139890929281182
+  },
+  "secs": 21
+ },
+ {
+  "variant": "no_landing_geometry",
+  "n_features": 114,
+  "best_iter": {
+   "x": 1263,
+   "y": 1398
+  },
+  "rmse": 0.9995588958753425,
+  "rmse_cv": 1.645345798245558,
+  "by_role": {
+   "Defensive Coverage": 1.0738382129784965,
+   "Targeted Receiver": 0.7843124886598791
+  },
+  "secs": 48
+ }
+]

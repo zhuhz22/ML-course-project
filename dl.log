@@ -1,0 +1,14 @@
+49 files
+kaggle_evaluation/__init__.py 0
+kaggle_evaluation/core/__init__.py 82
+kaggle_evaluation/core/base_gateway.py 23342
+kaggle_evaluation/core/generated/__init__.py 82
+kaggle_evaluation/core/generated/kaggle_evaluation_pb2.py 4074
+kaggle_evaluation/core/generated/kaggle_evaluation_pb2_grpc.py 2662
+kaggle_evaluation/core/kaggle_evaluation.proto 1789
+kaggle_evaluation/core/relay.py 18116
+kaggle_evaluation/core/templates.py 5103
+kaggle_evaluation/nfl_gateway.py 4250
+kaggle_evaluation/nfl_inference_server.py 298
+test.csv 177525
+test_input.csv 8509084

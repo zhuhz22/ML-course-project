@@ -1,0 +1,43 @@
+1 285714 32088
+2 288586 32180
+3 297757 36080
+4 272475 30147
+5 254779 29319
+6 270676 31162
+7 233597 27443
+8 281011 33017
+9 252796 28291
+10 260372 29008
+11 243413 27623
+12 294940 32156
+13 233755 29568
+14 279972 32873
+15 281820 32715
+16 316417 36508
+17 277582 33076
+18 254917 29682
+input (4880579, 23) output (562936, 7)
+game_id                       int64
+play_id                       int64
+player_to_predict              bool
+nfl_id                        int64
+frame_id                      int64
+play_direction               object
+absolute_yardline_number      int64
+player_position              object
+player_side                  object
+player_role                  object
+x                           float32
+y                           float32
+s                           float32
+a                           float32
+dir                         float32
+o                           float32
+num_frames_output             int64
+ball_land_x                 float32
+ball_land_y                 float32
+week                          int16
+height_in                   float32
+weight_lb                   float32
+age_days                    float32
+dtype: object

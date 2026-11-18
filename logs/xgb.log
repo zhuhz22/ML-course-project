@@ -1,0 +1,47 @@
+train rows 500178 val rows 62758
+[0]	val-rmse:1.50252
+[100]	val-rmse:0.81336
+[200]	val-rmse:0.79020
+[300]	val-rmse:0.77984
+[400]	val-rmse:0.77433
+[500]	val-rmse:0.77093
+[600]	val-rmse:0.76850
+[700]	val-rmse:0.76684
+[800]	val-rmse:0.76606
+[900]	val-rmse:0.76507
+[1000]	val-rmse:0.76446
+[1100]	val-rmse:0.76388
+[1199]	val-rmse:0.76322
+x best_iter 1198 286s
+[0]	val-rmse:1.63959
+[100]	val-rmse:0.78916
+[200]	val-rmse:0.76374
+[300]	val-rmse:0.75476
+[400]	val-rmse:0.74980
+[500]	val-rmse:0.74571
+[600]	val-rmse:0.74369
+[700]	val-rmse:0.74181
+[800]	val-rmse:0.74072
+[900]	val-rmse:0.74008
+[1000]	val-rmse:0.73920
+[1100]	val-rmse:0.73860
+[1199]	val-rmse:0.73818
+y best_iter 1196 67s
+/mnt/vepfs/base2/zhuhongzhou/.local/lib/python3.8/site-packages/xgboost/core.py:265: FutureWarning: Your system has an old version of glibc (< 2.28). We will stop supporting Linux distros with glibc older than 2.28 after **May 31, 2025**. Please upgrade to a recent Linux distro (with glibc 2.28+) to use future versions of XGBoost.
+Note: You have installed the 'manylinux2014' variant of XGBoost. Certain features such as GPU algorithms or federated learning are not available. To use these features, please upgrade to a recent Linux distro with glibc 2.28+, and install the 'manylinux_2_28' variant.
+  warnings.warn(
+{
+ "n_train": 500178,
+ "n_val": 62758,
+ "best_iter": {
+  "x": 1198,
+  "y": 1196
+ },
+ "rmse_cv": 1.645345798245558,
+ "rmse_xgb": 0.7507892926644674
+}
+
+by role (xgb, cv, n): {'Defensive Coverage': [0.827, 1.753, 44792], 'Targeted Receiver': [0.514, 1.339, 17966]}
+by horizon (xgb, cv): {'(0, 2]': [0.06, 0.053], '(2, 4]': [0.091, 0.213], '(4, 6]': [0.184, 0.485], '(6, 8]': [0.325, 0.856], '(8, 10]': [0.514, 1.313], '(10, 15]': [0.91, 2.153], '(15, 20]': [1.51, 3.296], '(20, 200]': [2.364, 4.704]}
+
+Top gain (x): [('dir_sign', 518.7676391601562), ('dx_net_10', 464.1394348144531), ('b_ang_sin', 244.97674560546875), ('s_acc_5', 224.72166442871094), ('s', 125.89791107177734), ('t', 112.87726593017578), ('vx', 101.67991638183594), ('t_sq', 70.06446838378906), ('dx_net_5', 69.6803207397461), ('num_frames_output', 69.52554321289062), ('x_from_land', 67.8689956665039), ('bx', 63.325958251953125)]
